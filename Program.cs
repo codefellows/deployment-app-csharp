@@ -20,5 +20,6 @@ namespace basic_web_app
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
+                
     }
 }
